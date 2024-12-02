@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #28a745; /* Verde */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #555;
+}
+
+.intro .icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.intro .icons img {
+    width: 50px;
+    height: 50px;
+}
+
+.ods h3 {
+    font-size: 24px;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.ods ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.ods ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Seção de Links */
+.links h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.links ul li a:hover {
+    color: #ffcc00;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form input[type="text"], 
+form input[type="email"], 
+form input[type="number"], 
+form input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-cadastro{
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-cadastro:hover{
+    background-color: #5c79da;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+form a {
+    color: #007bff;
+    text-align: center;
+    text-decoration: none;
+}
+
+form a:hover {
+    color: #ffcc00;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.cadastro-container, .login-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    margin: 20px auto;
+}
+
+.cadastro-container h2, .login-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.cadastro-container .input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.cadastro-container .input-group input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-container .input-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.login-container .input-group input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}

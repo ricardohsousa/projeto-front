@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" href="./css/styles.css" type="text/css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Futebol do Futuro</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div class="form-container">
+        <h2>Cadastro de Aluno</h2>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email do Responsável</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="idade">Idade</label>
+                <input type="number" id="idade" min="7" max="17" name="idade" required>
+            </div>
+            <div class="input-group">
+                <label for="nome_mae">Nome da Mãe</label>
+                <input type="text" id="nome_mae" name="nome_mae" required>
+            </div>
+            <div class="input-group">
+                <label for="nome_pai">Nome do Pai</label>
+                <input type="text" id="nome_pai" name="nome_pai" required>
+            </div>
+            <div class="input-group">
+                <label for="escola">Escola</label>
+                <input type="text" id="escola" name="escola" required>
+            </div>
+            
+            <button type="button" class="btn-submit" onclick="window.location.href='login.html';">Enviar</button>
+        </form>        
+    </div>
+</main>
+
+    <footer>
+        <p>&copy; 2024 Futebol do Futuro | Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
