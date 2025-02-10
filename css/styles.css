@@ -158,14 +158,14 @@ form button {
     border: none;
 }
 
-.btn-cadastro{
+.btn-admin{
     background-color: #007bff;
     color: white;
     cursor: pointer;
     border: none;
 }
 
-.btn-cadastro:hover{
+.btn-admin:hover{
     background-color: #5c79da;
 }
 
@@ -205,7 +205,7 @@ footer {
     border-radius: 8px;
 }
 
-.cadastro-container, .login-container {
+.admin-container {
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -215,35 +215,78 @@ footer {
     margin: 20px auto;
 }
 
-.cadastro-container h2, .login-container h2 {
+.admin-container h2 {
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
     color: #333;
 }
 
-.cadastro-container .input-group label {
+.admin-container .input-group label {
     font-size: 14px;
     margin-bottom: 5px;
     color: #555;
 }
 
-.cadastro-container .input-group input {
+.admin-container .input-group input {
     padding: 12px;
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ddd;
 }
 
-.login-container .input-group label {
+.input-group label {
     font-size: 14px;
     margin-bottom: 5px;
     color: #555;
 }
 
-.login-container .input-group input {
+.input-group input {
     padding: 12px;
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ddd;
+}
+
+#lista-cadastro {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lista-cadastro li {
+    background: #f8f9fa;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border-left: 5px solid #28a745;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#lista-cadastro li span {
+    flex: 1;
+}
+
+.btn-excluir-todos {
+    background-color: #dc3545;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-excluir-todos:hover {
+    background-color: #c82333;
 }

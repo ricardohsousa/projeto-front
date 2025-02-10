@@ -24,7 +24,7 @@
 
 ## Estruturas
 
-:heavy_check_mark: 3 Páginas na Raiz do Projeto (Index.html, Login.html e Cadastro.html)  
+:heavy_check_mark: 3 Páginas na Raiz do Projeto (Index.html, Login.html e Admin.html)  
 
 :heavy_check_mark: Pasta Figs onde contém as Imagens e Icones do Projeto  
 
